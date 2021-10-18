@@ -24,7 +24,7 @@ body {
     width: 120px;
     border-radius: 50%;
     border: aliceblue solid 3px;
-    /* box-shadow: 0 0 10px rgb(110, 110, 110); */
+    box-shadow: 0 0 15px rgb(110, 110, 110);
 }
 
 h1 {
