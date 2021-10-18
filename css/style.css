@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: aliceblue;
+    background: rgb(59, 59, 59);
+    background: linear-gradient(0deg, rgba(59, 59, 59, 1) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+.profile {
+    padding: 30px 0 20px;
+    text-align: center;
+}
+
+.avatar {
+    width: 120px;
+    border-radius: 50%;
+    border: aliceblue solid 3px;
+    /* box-shadow: 0 0 10px rgb(110, 110, 110); */
+}
+
+h1 {
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 100;
+    font-size: 24px;
+    margin-bottom: 2px;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+.links-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+}
+
+.links-list li {
+    width: 300px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgb(70, 70, 70);
+    text-align: center;
+}
+
+.links-list li a {
+    font-family: 'Raleway', sans-serif !important;
+    display: block;
+    padding: 15px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: aliceblue;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links-list li a img {
+    width: 20px;
+}
+
+.github {
+    background: rgb(67, 50, 89);
+    background: linear-gradient(315deg, rgba(67, 50, 89, 1) 0%, rgba(107, 81, 143, 1) 100%);
+}
+
+.facebook {
+    background: rgb(7, 76, 144);
+    background: linear-gradient(315deg, rgba(7, 76, 144, 1) 0%, rgba(50, 153, 255, 1) 100%);
+}
+
+.whatsapp {
+    background: rgb(71, 232, 100);
+    background: linear-gradient(153deg, rgba(71, 232, 100, 1) 0%, rgba(52, 134, 67, 1) 100%);
+}
+
+.linkedin {
+    background: rgb(24, 119, 242);
+    background: linear-gradient(153deg, rgba(24, 119, 242, 1) 0%, rgba(16, 62, 121, 1) 100%);
+}
+
+.instagram {
+    background: rgb(131, 58, 180);
+    background: linear-gradient(315deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+}
+
+.gmail {
+    background: rgb(214, 71, 59);
+    background: linear-gradient(102deg, rgba(214, 71, 59, 1) 0%, rgba(170, 28, 15, 1) 100%);
+}
+
+.github a:hover,
+.linkedin a:hover,
+.whatsapp a:hover,
+.facebook a:hover,
+.instagram a:hover,
+.gmail a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: aliceblue;
+    transition: 0.3s;
+    box-shadow: 0 0 10px rgb(70, 70, 70);
+}
+
+.rodape {
+    display: fixed;
+    bottom: 0;
+}
